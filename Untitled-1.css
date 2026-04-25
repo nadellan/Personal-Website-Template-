@@ -1,0 +1,67 @@
+/* ============================= */
+/* SOCIAL ICONS */
+/* ============================= */
+
+.icons li a {
+    color: #6a0dad !important;
+    border-bottom: none;
+}
+
+.icons li a:hover {
+    color: #5a009d !important;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+/* ============================= */
+/* FOOD NAV SECTION */
+/* ============================= */
+
+.food-nav {
+    margin-top: 20px;
+}
+
+/* Search Bar */
+.search-wrapper {
+    position: relative;
+    margin-bottom: 12px;
+    max-width: 300px;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 8px 12px 8px 35px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6a0dad;
+}
+
+/* Category Buttons */
+.category-buttons button,
+.dessert-menu button {
+    padding: 6px 12px;
+    border: none;
+    background: #6a0dad;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 4px 6px 4px 0;
+}
+
+.category-buttons button:hover,
+.dessert-menu button:hover {
+    background: #5a009d;
+}
+
+/* Dessert Menu */
+.dessert-menu {
+    display: none;
+    margin-top: 8px;
+}

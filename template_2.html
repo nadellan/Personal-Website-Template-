@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Nithya's Kitchen TrovE</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body class="is-preload">
+
+<div id="wrapper" class="fade-in">
+
+    <!-- Intro -->
+    <div id="intro">
+        <h1>Nithya's Kitchen TrovE</h1>
+        <p>Putting all that pent up passion in the kitchen.</p>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">Preorder my cookbook</a>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="nav">
+
+        <!-- Social Icons -->
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"></a></li>
+            <li><a href="#" class="icon brands fa-facebook-f"></a></li>
+            <li><a href="#" class="icon brands fa-instagram"></a></li>
+            <li><a href="#" class="icon brands fa-pinterest"></a></li>
+        </ul>
+
+        <!-- Search + Categories -->
+        <div class="food-nav">
+
+            <div class="search-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" placeholder="Search food...">
+            </div>
+
+            <div class="category-buttons">
+                <button>Pastas</button>
+                <button>Salads</button>
+                <button>Soups</button>
+                <button>Sandwiches</button>
+                <button onclick="toggleDesserts()">Desserts ▼</button>
+            </div>
+
+            <div id="dessertMenu" class="dessert-menu">
+                <button>Cakes</button>
+                <button>Cookies</button>
+                <button>Ice Cream</button>
+                <button>Pies</button>
+                <button>Pastries</button>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Main Content -->
+    <div id="main">
+        <article class="post featured">
+            <header class="major">
+                <h2>Fan Favorites</h2>
+            </header>
+        </article>
+    </div>
+
+</div>
+
+<!-- Template Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<!-- Custom Script -->
+<script>
+function toggleDesserts() {
+    const menu = document.getElementById("dessertMenu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+}
+</script>
+
+</body>
+</html>
